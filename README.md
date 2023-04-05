@@ -8,7 +8,7 @@ We describe a maze as having row X col cells. For example if row was 3, and col 
   8 |  9 | 10 | 11
 
 ```
-
+![6](https://user-images.githubusercontent.com/60019805/230239129-a75fe4e9-8ef3-4623-86da-bc06c27564a0.gif)
 A Maze class (which you do not need to implement) describes a maze using the method described It has member functions that you can use to travel through the maze (ie figure out where you are, know what cells you can reach, etc.)
 
 **A recursive maze runner:**
@@ -27,7 +27,7 @@ For example, suppose the fromCell was 0 and the toCell was 3 using the maze belo
 
 ```
 runMaze() function would put the following into path: {0,4,5,1,2,3} and return 6
-
+![8](https://user-images.githubusercontent.com/60019805/230239164-4429ae5b-fb19-437e-8d52-5a43486f37d8.gif)
 # Lists
 A list is an **sequence of values**. It may have properties such as being sorted/unsorted, having duplicate values or being unique. The most important part about list structures is that the data has an ordering (which is not the same as being sorted). Ordering simply means that there is an idea that there is a "first" item, a "second" item and so on. Lists typically have a subset of the following operations:
 
